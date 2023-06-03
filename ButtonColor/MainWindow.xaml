@@ -1,0 +1,19 @@
+﻿<Window x:Class="ButtonColor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ButtonColor"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Name="Button1" Content="BTN 1"  Margin="122,100,533,249" Click="Click_button"  MouseRightButtonDown="Button_MouseRightButtonDown"/>
+        <Button Name="Button2" Content="BTN 2"  Margin="122,263,533,65"  Click="Click_button" MouseRightButtonDown="Button_MouseRightButtonDown"/>
+        <Button Name="Button3" Content="BTN 3"  Margin="325,100,346,249"  Click="Click_button" MouseRightButtonDown="Button_MouseRightButtonDown"/>
+        <Button Name="Button4" Content="BTN 4"  Margin="325,263,346,65"  Click="Click_button" MouseRightButtonDown="Button_MouseRightButtonDown"/>
+        <Button Name="Button5" Content="BTN 5"  Margin="536,100,139,249"  Click="Click_button" MouseRightButtonDown="Button_MouseRightButtonDown"/>
+        <Button Name="Button6" Content="BTN 6"  Margin="536,263,139,65"  Click="Click_button" MouseRightButtonDown="Button_MouseRightButtonDown"/>
+
+
+    </Grid>
+</Window>
